@@ -9,9 +9,9 @@ function Navbar() {
   const [showRegisterDropdown, setShowRegisterDropdown] = useState(false);
 
   useEffect(() => {
-    // Any side effects when the wallet connection status changes
+  
     if (isConnected) {
-      // You could fetch data based on the role (if necessary)
+      alert("Wallet Connected Successfully...");
     }
   }, [isConnected]);
 

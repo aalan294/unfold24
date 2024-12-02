@@ -42,7 +42,7 @@ function PropertyList() {
          // Fetch the total number of apartments
         const apartments = [];
 
-        for (let i = 0; i < apartmentCount; i++) {
+        for (let i = 1; i < apartmentCount; i++) {
           const apartment = await contract.methods.apartments(i).call();
           console.log(apartment)
           if (apartment.bookedUnits < apartment.totalUnits) {
