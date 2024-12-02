@@ -18,7 +18,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <Link to="/">Stake and Buy</Link>
+        <Link to="/">Crypt Estate</Link>
       </div>
       <div className="navbar-links">
         {isConnected ? (
