@@ -13,7 +13,7 @@ function Home() {
         Find properties so extraordinary, even your dream home will do a double take. 
         Your future address is chilling in our curated collection—go say hi!
         </p>
-        <Link to="/properties" className="cta-button">
+        <Link to="/" className="cta-button">
           Explore Properties
         </Link>
       </section>
